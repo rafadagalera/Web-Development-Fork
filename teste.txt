@@ -1,2 +1,3 @@
 Meu nome é Carolina
 O nome da minha cachorra é Loopsy
+git pull = sincroniza as alterações feitas no github
