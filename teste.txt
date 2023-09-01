@@ -1,7 +1,10 @@
 Meu nome é Carolina
 O nome da minha cachorra é Loopsy
-git pull = sincroniza as alterações feitas no github
+git pull origin "branch" = sincroniza as alterações feitas no github
 git push origin "branch" = sincroniza as alterações feitas no vscode
 git status
-git commit -m "nome"
+git commit -m "nome" 
 git add .
+git checkout "branch" = muda para a branch
+git branch = mostra as suas branchs e em qual vc está
+git clone "link" = copia o repositório
