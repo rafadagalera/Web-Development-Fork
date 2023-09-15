@@ -1,7 +1,3 @@
-Meu nome é Carolina
-O nome da minha cachorra é Loopsy
-
-
 COMANDOS GIT:
 
 git pull origin "nome da branch" = sincroniza as alterações feitas no github
