@@ -1,0 +1,16 @@
+Meu nome é Carolina
+O nome da minha cachorra é Loopsy
+
+
+COMANDOS GIT:
+
+git pull origin "nome da branch" = sincroniza as alterações feitas no github
+git push origin "nome da branch" = sincroniza as alterações feitas no vscode
+git status
+git commit -m "nome do commit" 
+git add .
+git checkout "nome da branch" = muda para a branch
+git branch = mostra as suas branchs e em qual vc está
+git clone "link" = copia o repositório
+git checkout -b "nome da branch" = cria outra branch
+git merge "nome da branch" = mescla uma branch com sua atual
