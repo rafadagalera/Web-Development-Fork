@@ -1,10 +1,10 @@
-// valor indefinido
+// Valor indefinido
 let nome;
 
-// vazia
+// Vazia
 let disciplina = null;
 
-// valor definido
+// Valor definido
 let texto = "Exemplo";
 
 console.log(nome);
