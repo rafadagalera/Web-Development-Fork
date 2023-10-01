@@ -10,10 +10,3 @@ git branch = mostra as suas branchs e em qual vc está
 git clone "link" = copia o repositório
 git checkout -b "nome da branch" = cria outra branch
 git merge "nome da branch" = mescla uma branch com sua atual
-
-SEQUÊNCIA PARA COMMIT:
-git status
-git add .
-git commit -m "nome da branch"
-git status
-git push origin "nome da branch"
