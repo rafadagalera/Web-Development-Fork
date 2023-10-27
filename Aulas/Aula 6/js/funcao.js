@@ -14,4 +14,3 @@ function soma(arg1, arg2) {
     return `A soma é: ${arg1 + arg2}`;
 }
 console.log(soma(4, 7));
-
