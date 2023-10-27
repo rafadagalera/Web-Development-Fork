@@ -1,0 +1,44 @@
+/* estiliza todos os elementos */
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    border: 1px solid black;
+
+    /* Deixa a borda arredondada */
+    border-radius: 5px;
+
+    /* Centralizar a div */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    height: 150px;
+    background: rgb(136, 175, 224);
+    color:rgb(247, 218, 181);
+
+    /* Centraliza o texto na horizontal */
+    text-align: center;
+
+    /* Centraliza o texto na vertical */
+    line-height: 150px;
+}
+
+.botao {
+    padding: 10px;
+    background: lightcoral;
+    color: black;
+    /* top, right, left, bottom -> todas iguais = um número só*/
+    margin: 10px;
+    border: 1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.corTirarDiv {
+    background: lightgreen;
+}
