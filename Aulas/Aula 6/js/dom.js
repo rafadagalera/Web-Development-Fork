@@ -10,7 +10,7 @@ const card = document.querySelector(".card");
 
 // Criar funções - função anônima:
 // add.EventListener = reconhece uma ação
-tirarDiv.addEventListener("click", function() {
+tirarDiv.addEventListener("click", function(){
     card.style.display = "none";
 })
 
