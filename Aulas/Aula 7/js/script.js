@@ -18,18 +18,28 @@ function clearForm() {
     campoCidade.value = '';
 }
 
+// Variável para validação -> elemento html
+const pMensagem = document.createElement('p');
+
 // Função para validar os campos
 buttonValidar.addEventListener("click", function(event) {
     event.preventDefault();
 
     // trim = não deixa preencherem só com espaço
     if (campoNome.value.trim() === '') {
-        alert("Preencha o campo nome");
+        // Texto para a variável
+        pMensagem.textContent = "Campo obrigatório."
+        // afterend = mostra após o input
+        campoNome.insertAdjacentElement ("afterend", pMensagem);
+        // Acrescenta as classes
+        pMensagem.setAttribute("class", "error");
         return false;
     }
 
     if (campoCidade.value.trim() === '') {
-        alert("Preencha o campo cidade");
+        pMensagem.textContent = "Campo obrigatório."
+        campoCidade.insertAdjacentElement ("afterend", pMensagem);
+        pMensagem.setAttribute("class", "error");
         return false;
     }
 
