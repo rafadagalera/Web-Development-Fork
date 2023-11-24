@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightgrey;
+}
+
+.container {
+    max-width: 500px;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    margin: 80px auto;
+    background:rgb(204, 238, 241) ;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+}
+
+form {
+    display: flex;
+    justify-content: center; /* Alinha os elementos */
+    padding: 20px;
+}
+
+.form-control input[type="text"] {
+    padding: 7px;
+    outline: none; /* Tira a borda do input */
+    width: 100%;
+    max-width: 250px;
+}
+
+button {
+    background: aliceblue;
+    color: black;
+    border: 1px solid lightseagreen;
+    border-radius: 3px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 32px;
+}
+
+.error {
+    color: rgb(255, 84, 84);
+    text-align: left;
+}
+
+.d-none {
+    display: none;
+}
