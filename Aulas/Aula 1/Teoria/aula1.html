@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Como saber quando usar let, const ou var?</h1>
+    <div class="conteudo">
+        <div class="alinhar variaveis">
+            <h2>Var</h2>
+            <ul>
+                <li>Respeita o escopo da função.</li>
+                <li>Pode ter seu valor alterado ou redefinido.</li>
+                <li>Pode ser acessada antes de ter um valor atribuído por conta do hoisting.</li>
+            </ul>
+            <h2>Let</h2>
+            <ul>
+                <li>Respeita o escopo do bloco.</li>
+                <li>Pode ter seu valor alterado, mas não pode ser redefinida. Porém, pode ser duplicada se não fizer parte do mesmo escopo.</li>
+                <li>É reconhecida no hoisting, porém retorna "Reference Error".</li>
+            </ul>
+            <h2>Const</h2>
+            <ul>
+                <li>Respeita o escopo do bloco.</li>
+                <li>Não pode ter seu valor alterado nem redefinido.</li>
+                <li>Deve ser inicializada no momento da declaração.</li>
+                <li>Pode ter suas propriedades alteradas.</li>
+            </ul>
+        </div>
+        <div class="alinhar">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*naPPWUJjDMmKXZzsWopOqQ.jpeg" id="escopo">
+        </div>
+        <br><br>
+    </div>
+    <h1>"Dicionário":</h1>
+    <div class="conteudo">
+        <ul>
+            <li>Hosting = Permite executar funções antes de declará-la, puxa todas as informações para cima.</li>
+            <li>typeof = mostra que tipo de dado é aquela variável.</li>
+            <li>parseInt, parseFloat = converte em número.</li>
+            <li>String, .toString() = converte em string.</li>
+            <li>Template String (`... ${...}`) = permite quebra de linha e interpolação, aceita variáveis, operadores e funções.</li>
+            <li>Instância = Propriedades exclusivas para cada tipo de dado de acordo com a instância do JS ("clones").
+                <br>
+                ~> EX: .toLowerCase = transforma tudo em minúsculo (propriedade de string)
+                <br>
+                ~> EX2: .toFixed(2) = número com até 2 casas decimais (propriedade de número)
+                <br><br>
+                <b>OBS:</b> as propriedades podem ser acessadas utilizando o ponto (.)
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

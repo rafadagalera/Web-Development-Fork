@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Merriweather";
+}
+
+h1 {
+   margin: 20px 30px;
+   background-color: rgb(147, 190, 255);
+   border-radius: 20px;
+   padding: 10px;
+   max-width: fit-content;
+}
+
+.conteudo {
+    margin: auto 50px;
+}
+
+#escopo {
+    width: 700px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+.alinhar {
+    display: inline-block;
+}
+
+.variaveis {
+    max-width: 600px;
+}
+
+li {
+    padding-bottom: 10px;
+}
