@@ -6,7 +6,8 @@ function velocidade(){
 
 function calculoMulta(vel){
     if (vel > 60){
-        return (vel - 60)*100
+        valor = (vel - 60)*100
+        return valor
     } else if (vel <= 60 && vel > 0){
         return String
     } else {
@@ -15,13 +16,13 @@ function calculoMulta(vel){
 }
 
 function multa(){
-    if (calculoMulta(velocidade()) == Number){
-        console.log(`O valor da multa a ser paga é de R$ ${calculoMulta(velocidade())}`)
+    if (calculoMulta(velocidade()) == null){
+        console.log("Por favor, digite um valor válido")
     } else if (calculoMulta(velocidade()) == String){
         console.log("Você esá dentro do limite de velocidade. Não há multa a ser paga")
     } else {
-        console.log ("Por favor, digite um valor válido.")
+        console.log (`O valor da multa a ser paga é de R$ ${calculoMulta(velocidade())}`)
     }
 }
 
-multa()
+multa();
