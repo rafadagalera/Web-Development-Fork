@@ -1,4 +1,4 @@
-// const listaFilmes = document.querySelector('#listaFilmes')
+const listaFilmes = document.querySelector('#listaFilmes')
 // const filmes = ['Divertidamente', 'Up', 'Vovózona', 'Wall-E', 'Avatar']
 const filmes = [{
     nome: 'Divertidamente',
@@ -12,7 +12,7 @@ const filmes = [{
 filmes.push('Branquelas') // Adiciona 
 filmes.pop()  // Remove o último elemento
 
-/* window.onload = () => {
+window.onload = () => {
     for(let i=0; i < filmes.length; i++){
         let itemLista = document.createElement('li');
         // Coloca o li vazio dentro do ul
@@ -24,9 +24,9 @@ filmes.pop()  // Remove o último elemento
         itemLista.append(anoLancamento)
         anoLancamento.innerHTML = `<br><strong> Data de Lançamento:</strong> ${filmes[i].lancamento}`
     }
-} */
+}
 
 // forEach() = for pré definido que vai passar por todos os elementos
-filmes.forEach(function(meuElemento){
+/* filmes.forEach(function(meuElemento){
     console.log(meuElemento.nome + ' Conteúdo Extra')
-})
+}) */
