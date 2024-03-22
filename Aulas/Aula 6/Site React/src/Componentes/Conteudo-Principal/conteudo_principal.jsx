@@ -4,11 +4,13 @@ import Form_Contato from '../Form-Contato/Form_Contato'
 
 function Conteudo_Principal() {
     return(
-        <>
-            <Info_Pessoais/>
-            <Habilidades/>
+        <div class="mainInfo">
+            <section id="info">
+                <Info_Pessoais/>
+                <Habilidades/>
+            </section>
             <Form_Contato/>
-        </>
+        </div>
     )
 }
 
