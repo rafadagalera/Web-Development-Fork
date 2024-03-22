@@ -1,7 +1,7 @@
-function rodape() {
+function Rodape() {
     return(
 
     )
 }
 
-export default rodape
+export default Rodape

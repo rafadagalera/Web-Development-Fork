@@ -1,7 +1,7 @@
-function formContato() {
+function Form_Contato() {
     return(
 
     )
 }
 
-export default formContato
+export default Form_Contato

@@ -1,7 +1,7 @@
-function conteudoPrincipal() {
+function Conteudo_Principal() {
     return(
 
     )
 }
 
-export default conteudoPrincipal
+export default Conteudo_Principal

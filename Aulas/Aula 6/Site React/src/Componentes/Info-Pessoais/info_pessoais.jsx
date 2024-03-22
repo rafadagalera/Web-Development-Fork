@@ -1,7 +1,7 @@
-function infoPessoais() {
+function Info_Pessoais() {
     return(
 
     )
 }
 
-export default infoPessoais
+export default Info_Pessoais

@@ -1,7 +1,7 @@
-function habilidades() {
+function Habilidades() {
     return(
 
     )
 }
 
-export default habilidades
+export default Habilidades
