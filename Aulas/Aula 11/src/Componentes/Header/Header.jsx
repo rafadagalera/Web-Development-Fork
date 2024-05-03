@@ -1,6 +1,12 @@
+import Navbar from "../Navbar/Navbar";
+
 function Header() {
     return ( 
-        <h1>Header</h1>
+        <header>
+            <span>Olá, visitante!</span>
+            <h1>Bem-vindo ao Movie App</h1>
+            <Navbar/>
+        </header>
      );
 }
 
